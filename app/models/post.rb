@@ -5,4 +5,6 @@ class Post < ActiveRecord::Base
     "Hello #{self.name}"
   end
   
+  belongs_to :author
+  
 end
